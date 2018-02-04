@@ -1,0 +1,8 @@
+C:\Users\mihai\source\repos\IndentC\IndentC\bin\Debug\IndentC.exe.config
+C:\Users\mihai\source\repos\IndentC\IndentC\bin\Debug\IndentC.exe
+C:\Users\mihai\source\repos\IndentC\IndentC\obj\Debug\IndentC.csprojResolveAssemblyReference.cache
+C:\Users\mihai\source\repos\IndentC\IndentC\obj\Debug\IndentC.Form1.resources
+C:\Users\mihai\source\repos\IndentC\IndentC\obj\Debug\IndentC.Properties.Resources.resources
+C:\Users\mihai\source\repos\IndentC\IndentC\obj\Debug\IndentC.csproj.GenerateResource.Cache
+C:\Users\mihai\source\repos\IndentC\IndentC\obj\Debug\IndentC.csproj.CoreCompileInputs.cache
+C:\Users\mihai\source\repos\IndentC\IndentC\obj\Debug\IndentC.exe
