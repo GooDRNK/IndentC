@@ -38,7 +38,6 @@
             this.iTalk_TextBox_Big2 = new iTalk.iTalk_TextBox_Big();
             this.iTalk_GroupBox1 = new iTalk.iTalk_GroupBox();
             this.iTalk_TextBox_Big1 = new iTalk.iTalk_TextBox_Big();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.iTalk_ControlBox1 = new iTalk.iTalk_ControlBox();
             this.iTalk_Toggle2 = new iTalk.iTalk_Toggle();
             this.iTalk_Label4 = new iTalk.iTalk_Label();
@@ -55,7 +54,6 @@
             this.iTalk_ThemeContainer1.SuspendLayout();
             this.iTalk_GroupBox2.SuspendLayout();
             this.iTalk_GroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -72,7 +70,6 @@
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Button_14);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_GroupBox2);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_GroupBox1);
-            this.iTalk_ThemeContainer1.Controls.Add(this.pictureBox1);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_ControlBox1);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Toggle2);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label4);
@@ -93,11 +90,11 @@
             this.iTalk_ThemeContainer1.Name = "iTalk_ThemeContainer1";
             this.iTalk_ThemeContainer1.Padding = new System.Windows.Forms.Padding(3, 28, 3, 28);
             this.iTalk_ThemeContainer1.Sizable = false;
-            this.iTalk_ThemeContainer1.Size = new System.Drawing.Size(1106, 770);
+            this.iTalk_ThemeContainer1.Size = new System.Drawing.Size(1106, 688);
             this.iTalk_ThemeContainer1.SmartBounds = false;
             this.iTalk_ThemeContainer1.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultLocation;
             this.iTalk_ThemeContainer1.TabIndex = 0;
-            this.iTalk_ThemeContainer1.Text = "UPIT Indentare ";
+            this.iTalk_ThemeContainer1.Text = "Ident C++";
             // 
             // iTalk_Button_14
             // 
@@ -168,18 +165,6 @@
             this.iTalk_TextBox_Big1.TabIndex = 0;
             this.iTalk_TextBox_Big1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.iTalk_TextBox_Big1.UseSystemPasswordChar = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::IndentC.Properties.Resources.siglasiteupitmare;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 659);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1088, 84);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // iTalk_ControlBox1
             // 
@@ -341,14 +326,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1106, 770);
+            this.ClientSize = new System.Drawing.Size(1106, 688);
             this.Controls.Add(this.iTalk_ThemeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(126, 39);
             this.Name = "Form1";
-            this.Text = "UPIT Indentare ";
+            this.Text = "Ident C++";
             this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -356,7 +341,6 @@
             this.iTalk_ThemeContainer1.PerformLayout();
             this.iTalk_GroupBox2.ResumeLayout(false);
             this.iTalk_GroupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -381,7 +365,6 @@
         private iTalk.iTalk_Label iTalk_Label4;
         private iTalk.iTalk_ControlBox iTalk_ControlBox1;
         private System.Windows.Forms.Timer FlushMemory;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private iTalk.iTalk_GroupBox iTalk_GroupBox2;
         private iTalk.iTalk_GroupBox iTalk_GroupBox1;
         private iTalk.iTalk_Button_1 iTalk_Button_14;
